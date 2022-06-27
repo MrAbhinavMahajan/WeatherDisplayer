@@ -100,9 +100,7 @@ const Content = props => {
       <View style={styles.capsule(colors.lightViolet, 64, 6, true)} />
 
       <View style={styles.bottomSheetFilters}>
-        <Text style={styles.bottomSheetFilterHeaderLabel}>
-          All Transactions
-        </Text>
+        <Text style={styles.bottomSheetFilterHeaderLabel}>All Details</Text>
 
         <View style={styles.bottomSheetFilterApplier}>
           <Text style={styles.bottomSheetFilterApplierKeyLabel}>Sort by: </Text>
